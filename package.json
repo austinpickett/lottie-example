@@ -1,14 +1,15 @@
 {
   "name": "lottie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example lottie animation on scroll, bundled with parcel",
   "main": "index.js",
+  "homepage": "https://lottie-example-m4vqehnib.vercel.app/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "",
+  "author": "Austin Pickett",
   "license": "ISC",
   "dependencies": {
     "lottie-web": "^5.7.6"
