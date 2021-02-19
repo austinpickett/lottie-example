@@ -1,0 +1,25 @@
+{
+  "name": "lottie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lottie-web": "^5.7.6"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.1",
+    "typescript": "^4.1.5"
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "watcherGlob": "**"
+  }
+}

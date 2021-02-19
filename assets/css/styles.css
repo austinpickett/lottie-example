@@ -1,0 +1,18 @@
+body, html{
+  background-color:#000;
+}
+
+.container {
+  height: 500vh;
+}
+
+#lottie {
+  height: 250px;
+  width: 250px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -125px;
+  margin-left: -125px;
+}
+
