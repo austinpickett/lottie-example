@@ -4,8 +4,8 @@ import type { AnimationItem } from "lottie-web"
 const anim = lottie.loadAnimation({
   container: document.getElementById('lottie'),
   renderer: 'svg',
-  loop: false,
-  autoplay: false,
+  loop: true,
+  autoplay: true,
   path: './public/lottie/data.json'
 })
 
